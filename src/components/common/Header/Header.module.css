@@ -1,0 +1,33 @@
+.Header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 1em;
+	border-bottom: 3px solid rgba(206, 206, 206, 0.3);
+	gap: 1em;
+}
+
+.Header_logo {
+	font-size: 2em;
+}
+
+.Header_link {
+	margin: 0 2em 0 auto;
+	text-decoration: none;
+	color: black;
+	transition: 0.33s ease-in-out;
+}
+
+.Header_link:hover {
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+	.Header_logo {
+		font-size: 1.5em;
+	}
+
+	.Header_link {
+		margin: 0 0 0 auto;
+	}
+}

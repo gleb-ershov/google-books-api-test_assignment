@@ -1,0 +1,68 @@
+.Toaster_container {
+	position: fixed;
+	top: 10%;
+	left: 0;
+	background-color: rgba(243, 151, 151, 0.5);
+	z-index: 999;
+	margin: 2em;
+	width: 300px;
+	padding: 1em;
+}
+
+.Toaster_title_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 1em;
+	border-bottom: 1px solid rgba(146, 146, 146, 0.3);
+}
+
+.Toaster_title {
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.Toaster_closeButton_container {
+	fill: darkred;
+	transition: 0.33s ease-in-out;
+	padding: 0;
+	margin: 0;
+	line-height: 0;
+}
+
+.Toaster_closeButton_container:hover {
+	fill: rgb(87, 0, 0);
+	cursor: pointer;
+}
+
+.Toaster_closeButton_container:active {
+	transform: scale(0.9);
+}
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+	.Toaster_container {
+		position: static;
+		margin: 1em auto;
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+	.Toaster_container {
+		position: static;
+		margin: 1em auto;
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+	.Toaster_container {
+		position: fixed;
+		top: 12%;
+		left: 0;
+		margin: 2em;
+		width: 250px;
+		padding: 1em;
+	}
+}

@@ -1,0 +1,35 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgb(254, 101, 101), rgb(218, 33, 231));
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, rgb(254, 101, 101), rgb(218, 33, 231));
+}
+
+.LoaderSpinner_container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.searchbar_invalid {
+    border-color: red !important;
+}

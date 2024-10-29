@@ -1,0 +1,22 @@
+.CustomInput {
+    border: none;
+    border-bottom: 3px solid rgb(194, 194, 194);
+    padding: .5em 1em;
+    font-size: 14px;
+    transition: 0.33s ease-in-out;
+    width: 100%;
+    outline: none;
+}
+
+.CustomInput:focus {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-image: linear-gradient(to right, rgb(254, 101, 101), rgb(218, 33, 231));
+    border-image-slice: 1;
+}
+
+.CustomInput:hover {
+    border-color: rgb(138, 138, 138);
+}

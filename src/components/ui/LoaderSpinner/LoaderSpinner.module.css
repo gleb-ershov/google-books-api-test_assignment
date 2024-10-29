@@ -1,0 +1,16 @@
+.LoaderSpinner {
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	border: 9px solid;
+	border-color: #dedee4;
+	border-right-color: #a2a2a3;
+	animation: spinner-animation 1s infinite linear;
+	margin: 2em auto;
+}
+
+@keyframes spinner-animation {
+	to {
+		transform: rotate(1turn);
+	}
+}

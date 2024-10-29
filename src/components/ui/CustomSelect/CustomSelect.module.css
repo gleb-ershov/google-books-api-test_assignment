@@ -1,0 +1,27 @@
+.CustomSelect {
+	border: 2px solid rgb(194, 194, 194);
+	padding: 0.5em 1em;
+	font-size: 14px;
+	transition: 0.33s ease-in-out;
+	width: 100%;
+	outline: none;
+}
+
+.CustomSelect:focus {
+	border-image: linear-gradient(
+		to right,
+		rgb(254, 101, 101),
+		rgb(218, 33, 231)
+	);
+	border-image-slice: 1;
+}
+
+.CustomSelect:hover {
+	background-color: #f5f5f5;
+	border-color: rgb(138, 138, 138);
+	cursor: pointer;
+}
+
+.CustomSelect:active {
+	border-color: black;
+}

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsPage should renders correctly if loading status is idle 1`] = `
+<div>
+  <div
+    class="DetailsPage_content_container"
+  >
+    <img
+      alt="The Modern JavaScript Basics Tutorial by Be Sure Academy volume cover"
+      class="DetailsPage_content_image"
+      src="http://books.google.com/books/content?id=z7D2DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+    />
+    <div
+      class="DetailsInfoText_container"
+    >
+      <p
+        class="DetailsInfoText_title"
+      >
+        The Modern JavaScript Basics Tutorial
+      </p>
+      <p
+        class="DetailsInfoText_authors"
+      >
+        by Be Sure Academy
+      </p>
+      <p
+        class="DetailsInfoText_categories"
+        data-testid="detailsInfoText-categories"
+      >
+        Computers
+      </p>
+      <div
+        class="DetailsInfoText_description"
+        data-testid="detailsInfoText-container"
+      >
+        JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP. You will learn by examples In this book, learning speed is your choice. Everything is up to you. If you are struggling, take a break, or re-read the material. JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone. JavaScript is free to use for everyone. Start your coding today!
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BooksTable should match snapshot with preloaded state 1`] = `
+<div>
+  <div
+    class="BooksTable_table"
+  >
+    <div
+      class="BookCard"
+    >
+      <a
+        class="BookCard_link_wrapper"
+        href="/z7D2DwAAQBAJ"
+        role="link"
+      >
+        <div
+          class="BookCard_container"
+        >
+          <img
+            alt="The Modern JavaScript Basics Tutorial by Be Sure Academy volume cover"
+            class="BookCard_book_cover_image"
+            src="http://books.google.com/books/content?id=z7D2DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+          />
+          <div
+            class="BookCard_text_info_container"
+          >
+            <p
+              class="BookCard_title"
+            >
+              The Modern JavaScript Basics Tutorial
+            </p>
+            <div>
+              <p
+                class="BookCard_authors"
+              >
+                Be Sure Academy
+              </p>
+              <p
+                class="BookCard_categories"
+              >
+                Computers
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

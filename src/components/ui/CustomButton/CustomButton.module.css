@@ -1,0 +1,27 @@
+.CustomButton {
+    border: 2px solid rgb(194, 194, 194);
+    padding: .5em 1em;
+    font-size: 14px;
+    transition: 0.33s ease-in-out;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+}
+
+.CustomButton:hover {
+    background-color: #f5f5f5;
+    border-color: rgb(138, 138, 138);
+    cursor: pointer;
+}
+
+.CustomButton:focus {
+    border-image: linear-gradient(to right, rgb(254, 101, 101), rgb(218, 33, 231));
+    border-image-slice: 1;
+
+}
+
+.CustomButton:active {
+    border-image: linear-gradient(to right, rgb(254, 101, 101), rgb(218, 33, 231));
+    border-image-slice: 1;
+    transform: scale(0.90);
+}
